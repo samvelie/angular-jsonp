@@ -1,3 +1,9 @@
 <h1>Home View</h1>
 
 <p>{{hc.message}}</p>
+
+
+<button ng-click="hc.getRandomPet()">Get Random Pet</button>
+
+<h2>{{hc.petObject.name.$t}}</h2>
+<h3>{{hc.petObject.description.$t}}</h3>
